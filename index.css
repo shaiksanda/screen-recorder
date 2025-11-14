@@ -88,3 +88,77 @@ video{
         transform:scale(1.1);
     }
 }
+
+
+.timer-container{
+    height: 16rem;
+    width: 5rem;
+    position: absolute;
+    bottom: 10rem;
+    left: 5rem;
+    color: aqua;
+    font-size: 0.8rem;
+}
+
+.timer{
+    display: none;
+}
+
+.error-msg{
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:100px;
+    left:50px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+
+.filter-container{
+    height: 16rem;
+    width: 5rem;
+    background-color: aqua;
+    position: absolute;
+    top: calc((100vh - 16rem) / 2);
+    left: 5rem;
+    z-index: 2;
+}
+.filter{
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
+    height: 4rem;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.filter-layer{
+    height: 100vh;
+    width: 100vw;
+    z-index:1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.orange{
+    background-color:#f4a0079e;
+}
+
+.brown{
+    background-color: #eb0b0bab;
+}
+
+.pink{
+    background-color: #e9b7c0bd;
+}
+.transparent{
+    background-color: transparent;
+}
